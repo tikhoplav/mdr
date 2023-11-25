@@ -1,0 +1,21 @@
+{
+  "name": "mdr",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "MD template rendering engine",
+  "main": "src/index.js",
+  "author": "Vitaly Tikhoplav <tikhoplavspb@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.12.0",
+    "fastify": "^4.24.3",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
